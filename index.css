@@ -1,0 +1,59 @@
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	border: 1px solid #555;;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+body {
+	background-image: url("http://images4.fanpop.com/image/photos/24000000/Piplup-and-Friends-water-pokemon-club-24024011-1024-768.jpg");
+	background-size: cover;
+	margin: 0;
+	background-attachment: fixed;
+}
+body {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+p {
+    text-indent: 70px;
+}
+p {
+    word-spacing: 10px;
+}
+p.big {
+    line-height: 2.0;
+}
+</style>
